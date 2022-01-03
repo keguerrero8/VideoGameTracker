@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+// NavBar
+// HomePage
+// ExplorePage
+// MyList
+
+//set up routes here
+
+// manage lists from here
+
 function App() {
   return (
     <div className="App">
