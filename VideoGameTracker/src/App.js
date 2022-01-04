@@ -1,8 +1,11 @@
 import './App.css';
 import { Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
-import { useEffect, useState } from 'react';
+import HomePage from './components/HomePage';
 import ExplorePage from "./components/ExplorePage";
+import MyLists from "./components/MyLists";
+import { useEffect, useState } from 'react';
+
 
 // NavBar
 // HomePage
@@ -35,13 +38,13 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/explore">
-        <ExplorePage games={games} setGames={setGames}/>
+          <ExplorePage games={games} setGames={setGames}/>
         </Route>
         <Route exact path="/myLists">
-        <h1 style={{color: "white"}}>My Lists</h1>
+          <MyLists/>
         </Route>
         <Route exact path="/">
-        <h1 style={{color: "white"}}>Home</h1>
+          <HomePage />
         </Route>
       </Switch>
     </>

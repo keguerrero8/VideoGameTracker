@@ -6,9 +6,7 @@ function GameCard({ game }) {
 console.log(game)
     return (
         <article class="card">
-            <header>
-                <h3>{game.name}</h3>
-            </header>
+            <h3>{game.name}</h3>
             <img src={game.background_image} />
             <p>Release Date: {game.released}</p>
             <h4 style={{textDecoration: "underline"}}>Consoles:</h4>
