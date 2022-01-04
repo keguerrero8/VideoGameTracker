@@ -9,7 +9,7 @@ import GameContainer from "./GameContainer"
 function ExplorePage({ games, setGames }) {
     return(
         <div>
-        <GameContainer games={games} setGames={setGames}/>
+            <GameContainer games={games} setGames={setGames}/>
         </div>
     )
 }

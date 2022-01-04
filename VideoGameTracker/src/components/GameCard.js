@@ -9,14 +9,12 @@ function GameCard({ game }) {
                 <h3>{game.name}</h3>
             </header>
             <img src={game.background_image} />
-            <p>{game.released}</p>
-            <ul>
-                {game.platforms.map((platform) => {
-                    return <li key={platform.platform.name}>{platform.platform.name}</li>
-                })}
-            </ul>
-        </article> 
-
+            <p>Release Date: {game.released}</p>
+            <h4 style={{textDecoration: "underline"}}>Consoles:</h4>
+            {game.platforms.map((platform) => {
+                return <p className="consoles" key={platform.platform.name}>{platform.platform.name}</p>
+            })}
+        </article>  
     )
 }
 
