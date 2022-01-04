@@ -1,5 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Switch } from "react-router-dom";
+import NavBar from './components/NavBar';
+import { useEffect, useState } from 'react';
+import ExplorePage from "./components/ExplorePage";
 
 // NavBar
 // HomePage
@@ -11,23 +14,37 @@ import './App.css';
 // manage lists from here
 
 function App() {
+  const [games, setGames] = useState([])
+
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  useEffect(()=> {
+    fetch(`https://api.rawg.io/api/games?key=d8149d2803d04ff1b5eec3c73b8dbb34&page=${getRandomInt(100)}&page_size=10`)
+    .then((response)=> response.json())
+    .then((data)=> {
+      setGames(data.results)
+      console.log(data.results)
+    })
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Switch>
+        <Route exact path="/explore">
+        <ExplorePage games={games} setGames={setGames}/>
+        </Route>
+        <Route exact path="/myLists">
+        <h1 style={{color: "white"}}>My Lists</h1>
+        </Route>
+        <Route exact path="/">
+        <h1 style={{color: "white"}}>Home</h1>
+        </Route>
+      </Switch>
+    </>
   );
 }
 
