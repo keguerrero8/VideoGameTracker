@@ -23,6 +23,8 @@ header {
 }
 
 .cards {
+  width: 90%;
+  margin-left: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
@@ -36,6 +38,8 @@ header {
   border-radius: 5px;
   border-color: rgba(125, 251, 0, 0.561);
   color:white;
+  background-color: rgba(49, 92, 6, 0.561);
+
 }
 
 .card img {
