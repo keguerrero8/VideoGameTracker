@@ -22,14 +22,14 @@ function App() {
   }
 
   useEffect(()=> {
-    fetch(`https://api.rawg.io/api/games?key=d8149d2803d04ff1b5eec3c73b8dbb34&page=${getRandomInt(100)}`)
+    fetch(`https://api.rawg.io/api/games?key=d8149d2803d04ff1b5eec3c73b8dbb34&page=${getRandomInt(100)}&page_size=10`)
     .then((response)=> response.json())
     .then((data)=> setGames(data.results))
   }, []);
 
   return (
     <div className="App">
-      <ExplorePage games={games}/>
+      <ExplorePage games={games} setGames={setGames}/>
     </div>
   );
 }

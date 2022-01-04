@@ -6,11 +6,10 @@ import GameContainer from "./GameContainer"
     // GameCards
 // FormSubmit
 
-function ExplorePage({ games }) {
+function ExplorePage({ games, setGames }) {
     return(
         <div>
-        <h1>Testing</h1>
-        <GameContainer games={games}/>
+        <GameContainer games={games} setGames={setGames}/>
         </div>
     )
 }

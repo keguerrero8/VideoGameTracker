@@ -3,12 +3,19 @@ import React from "react";
 // render games to card
 
 function GameCard({ game }) {
-console.log(game)
     return (
-        <card>
-            <h3>{game.name}</h3>
+        <article class="card">
+            <header>
+                <h3>{game.name}</h3>
+            </header>
             <img src={game.background_image} />
-        </card> 
+            <p>{game.released}</p>
+            <ul>
+                {game.platforms.map((platform) => {
+                    return <li key={platform.platform.name}>{platform.platform.name}</li>
+                })}
+            </ul>
+        </article> 
 
     )
 }
