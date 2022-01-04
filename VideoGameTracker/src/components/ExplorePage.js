@@ -6,10 +6,10 @@ import GameContainer from "./GameContainer"
     // GameCards
 // FormSubmit
 
-function ExplorePage({ games, setGames }) {
+function ExplorePage({ games, setGames, gameList, onChangeGameList }) {
     return(
         <div>
-            <GameContainer games={games} setGames={setGames}/>
+            <GameContainer games={games} setGames={setGames} gameList={gameList} onChangeGameList={onChangeGameList}/>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar"
 
 // GameCard
 
-function GameContainer({ games, setGames}) {
+function GameContainer({ games, setGames, gameList, onChangeGameList}) {
     const [search, setSearch] = useState("")
     const [searchGames, setSearchGames] = useState([])
     
@@ -25,9 +25,9 @@ function GameContainer({ games, setGames}) {
     return (
         <div>
             <SearchBar search={search} onSearch={setSearch} setSearchGames={setSearchGames}/>
-            <div class="cards">
+            <div className="cards">
                 {gamesToDisplay.map((game)=>{
-                    return (<GameCard key={game.name} game={game}/>
+                    return (<GameCard key={game.name} game={game} gameList={gameList} onChangeGameList={onChangeGameList}/>
                 )})}
             </div>
             <button onClick={handleClick} >Load More Games</button>

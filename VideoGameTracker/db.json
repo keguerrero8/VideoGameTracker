@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "name": "Orcs Must Die! 2",
+      "background_image": "https://media.rawg.io/media/games/725/725eb4171c8aacee030a2d050ebf9fad.jpg",
+      "released": "2012-07-30",
+      "list": "Wishlist",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 398536,
+            "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+          },
+          "released_at": "2012-07-30",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Windows XP, Windows Vista, Windows 7<br>\t</li><li><strong>Processor:</strong>2GHz Dual Core<br>\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 6800 or ATI Radeon x1950 or better with 256MB VRAM<br>\t</li><li><strong>DirectX®:</strong>9.0c<br>\t</li><li><strong>Hard Drive:</strong>9 GB HD space<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>"
+          },
+          "requirements_ru": {
+            "minimum": "Core 2 Duo/Athlon x2 2 ГГц,2 Гб памяти,GeForce 6800/Radeon x1950,9 Гб на винчестере",
+            "recommended": "Сore i5/Phenom II 3 ГГц,3 Гб памяти,3D-ускоритель с 512 Мб памяти,9 Гб на винчестере"
+          }
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
