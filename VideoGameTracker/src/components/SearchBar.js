@@ -1,10 +1,11 @@
-function SearchBar({ search, onSearch, setSearchGames}) {
+function SearchBar({setSearchGames}) {
 
     function handleChange(event) {
-        onSearch(event.target.value)
-        fetch(`https://api.rawg.io/api/games?key=d8149d2803d04ff1b5eec3c73b8dbb34&search=${search}&page_size=12`)
+        fetch(`https://api.rawg.io/api/games?key=d8149d2803d04ff1b5eec3c73b8dbb34&search=${event.target.value}&page_size=40`)
         .then((response)=> response.json())
-        .then((data)=> setSearchGames(data.results))
+        .then((data)=> {
+            setSearchGames(data.results)
+        })
     }
 
     return(
