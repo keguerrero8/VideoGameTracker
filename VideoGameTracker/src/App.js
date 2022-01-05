@@ -7,16 +7,6 @@ import ExplorePage from "./components/ExplorePage";
 import MyLists from "./components/MyLists";
 
 
-
-// NavBar
-// HomePage
-// ExplorePage
-// MyList
-
-//set up routes here
-
-// manage lists from here
-
 function App() {
   const [games, setGames] = useState([])
   const [gameList, setGameList] = useState([])
@@ -38,7 +28,7 @@ function App() {
   }, []);
 
   useEffect(()=> {
-    fetch(`http://localhost:3000/games`)
+    fetch(`http://localhost:4000/games`)
     .then((response)=> response.json())
     .then((data)=> setGameList(data))
   }, []);
