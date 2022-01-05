@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   useEffect(()=> {
-    fetch(`http://localhost:4000/games`)
+    fetch(`http://localhost:3000/games`)
     .then((response)=> response.json())
     .then((data)=> setGameList(data))
   }, []);

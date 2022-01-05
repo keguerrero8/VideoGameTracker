@@ -4,7 +4,6 @@ import SearchBar from "./SearchBar"
 
 function GameContainer({ games, gameList, onChangeGameList}) {
     const [searchGames, setSearchGames] = useState([])
-    console.log(searchGames)
     
     const gamesToDisplay = searchGames.length === 0 ||  searchGames[0].slug.startsWith("grand") ? games : searchGames
     
