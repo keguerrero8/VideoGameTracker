@@ -7,16 +7,6 @@ import ExplorePage from "./components/ExplorePage";
 import MyLists from "./components/MyLists";
 
 
-
-// NavBar
-// HomePage
-// ExplorePage
-// MyList
-
-//set up routes here
-
-// manage lists from here
-
 function App() {
   const [games, setGames] = useState([])
   const [gameList, setGameList] = useState([])
