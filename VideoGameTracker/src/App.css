@@ -1,11 +1,11 @@
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.829);
   margin: 0%;
   padding: 0%; 
 }
 
 header { 
-  height: 70px;
+  height: 60px;
   width: 100%;
   background-color: rgba(125, 251, 0, 0.561);
 }
@@ -17,9 +17,13 @@ header {
   margin-top: 8px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
+}
+
+.navLinks:hover {
+  color: black;
 }
 
 .cards {
@@ -39,7 +43,6 @@ header {
   border-color: rgba(125, 251, 0, 0.561);
   color:white;
   background-color: rgba(49, 92, 6, 0.561);
-
 }
 
 .card img {
@@ -65,4 +68,72 @@ header {
   border-radius: 5px;
   border-color: rgba(125, 251, 0, 0.561);
   font-size: large;
+}
+
+#logo {
+  padding: 15px 30px;
+  width: auto;
+  margin-top: 8px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  float: right;
+}
+
+#homeContainer {
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 60%;
+}
+
+#homeHead {
+  font-size: 70px;
+}
+
+#appDescribe {
+  font-size: 20px;
+  width: 80%;
+  margin:auto;
+  line-height: 1.5;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 0 10px;
+  margin:3.5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(125, 251, 0, 0.561);
+}
+
+i {
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: 1px dashed;
 }
