@@ -9,10 +9,10 @@ function HomePage() {
                 From all consoles and genres, VG Tracker will help you find information about any games you have in mind and keep a personal record of your collection. </p>
 
             </div>
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <i class="fab fa-wpexplorer"></i>
+            <div className="row">
+                <div className="column">
+                    <div className="card">
+                        <i className="fab fa-wpexplorer"></i>
                         <div>
                             <hr />
                             <p style={{lineHeight:"1.5"}} > VG Tracker uses 
@@ -24,8 +24,8 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card">
+                <div className="column">
+                    <div className="card">
                         <i className="far fa-list-alt"></i>
                         <div>
                             <hr />

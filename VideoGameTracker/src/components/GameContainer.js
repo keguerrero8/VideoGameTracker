@@ -2,14 +2,11 @@ import { React, useState } from "react";
 import GameCard from "./GameCard";
 import SearchBar from "./SearchBar"
 
-
-// GameCard
-
 function GameContainer({ games, setGames, gameList, onChangeGameList}) {
     const [search, setSearch] = useState("")
     const [searchGames, setSearchGames] = useState([])
     
-
+    console.log(search)
     const gamesToDisplay = search === "" ? games : searchGames 
 
     function getRandomInt(max) {
@@ -25,12 +22,12 @@ function GameContainer({ games, setGames, gameList, onChangeGameList}) {
     return (
         <div>
             <SearchBar search={search} onSearch={setSearch} setSearchGames={setSearchGames}/>
-            <div className="cards">
-                {gamesToDisplay.map((game)=>{
-                    return (<GameCard key={game.name} game={game} gameList={gameList} onChangeGameList={onChangeGameList}/>
-                )})}
+            <div id="loadGames">
+                <button id="loadGamesButton" onClick={handleClick} >Load More Games</button>
             </div>
-            <button onClick={handleClick} >Load More Games</button>
+            <div className="cards">
+                {gamesToDisplay.map((game)=> <GameCard key={game.name} game={game} gameList={gameList} onChangeGameList={onChangeGameList}/> )}
+            </div>
         </div>
 
 )};

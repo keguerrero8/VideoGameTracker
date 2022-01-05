@@ -70,6 +70,27 @@ header {
   font-size: large;
 }
 
+#loadGames {
+  padding: 10px;
+  text-align: center;
+}
+
+#loadGamesButton {
+  padding: 10px 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(125, 251, 0, 0.561);
+  border-color: black;
+  cursor: pointer;
+}
+
+#loadGamesButton:active {
+  transition: 0s;
+  background-color: black;
+}
+
 #logo {
   padding: 15px 30px;
   width: auto;
