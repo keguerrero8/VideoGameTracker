@@ -20,6 +20,7 @@ function NavBar() {
       <NavLink className="navLinks" to="/myLists">
         My Lists
       </NavLink>
+      <em id="logo" >VG Tracker</em>
     </header>
   );
 }
