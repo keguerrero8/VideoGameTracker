@@ -2,14 +2,10 @@ import { React, useState } from "react";
 import GameCard from "./GameCard";
 import SearchBar from "./SearchBar"
 
-<<<<<<< HEAD
 
 // GameCard
 
 function GameContainer({ games, setGames, onChangeGameList}) {
-=======
-function GameContainer({ games, setGames, gameList, onChangeGameList}) {
->>>>>>> refs/remotes/origin/main
     const [search, setSearch] = useState("")
     const [searchGames, setSearchGames] = useState([])
     
@@ -29,18 +25,10 @@ function GameContainer({ games, setGames, gameList, onChangeGameList}) {
     return (
         <div>
             <SearchBar search={search} onSearch={setSearch} setSearchGames={setSearchGames}/>
-<<<<<<< HEAD
             <div className="cards">
                 {gamesToDisplay.map((game)=>{
                     return (<GameCard key={game.name} game={game} onChangeGameList={onChangeGameList}/>
                 )})}
-=======
-            <div id="loadGames">
-                <button id="loadGamesButton" onClick={handleClick} >Load More Games</button>
-            </div>
-            <div className="cards">
-                {gamesToDisplay.map((game)=> <GameCard key={game.name} game={game} gameList={gameList} onChangeGameList={onChangeGameList}/> )}
->>>>>>> refs/remotes/origin/main
             </div>
         </div>
 

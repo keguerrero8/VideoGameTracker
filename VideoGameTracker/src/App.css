@@ -26,6 +26,10 @@ header {
   color: black;
 }
 
+.gameListContainer {
+  column-count: 3;
+}
+
 .cards {
   width: 90%;
   margin-left: 5%;
