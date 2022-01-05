@@ -3,7 +3,7 @@ import GameListCard from "./GameListCard";
 
 // render games to card
 
-function GameCard({ game, gameList, onChangeGameList }) {
+function GameCard({ game, onChangeGameList }) {
     function handleChange(event) { 
         const newGame = {
             name: game.name,

@@ -29,6 +29,48 @@
         }
       ],
       "id": 1
+    },
+    {
+      "name": "Divinity II: Developer's Cut",
+      "background_image": "https://media.rawg.io/media/games/c88/c88c0929d09ec9270ca1207a0838c202.jpg",
+      "released": "2012-10-29",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 398536,
+            "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+          },
+          "released_at": "2012-10-29",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP SP3 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo 1.8Ghz or equivalent<br>\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t</li><li><strong>Graphics:</strong> Nvidia GeForce 7600 with 256MB RAM or equivalent<br>\t</li><li><strong>DirectX®:</strong> 9.0c<br>\t</li><li><strong>Hard Drive:</strong> 15 GB HD space<br>\t</li><li><strong>Sound:</strong> DirectX9.0c compatible<br>\t</li><li><strong>Additional:</strong> When running Windows Vista or higher, double the required memory</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP SP3 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo 2.6Ghz or equivalent<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Graphics:</strong> Nvidia GeForce 8800 with 512MB RAM or equivalent<br>\t</li><li><strong>DirectX®:</strong> 9.0c<br>\t</li><li><strong>Hard Drive:</strong> 15 GB HD space<br>\t</li><li><strong>Sound:</strong> DirectX9.0c compatible<br>\t</li><li><strong>Additional:</strong> When running Windows Vista or higher, double the required memory</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2745,
+            "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+          },
+          "released_at": "2012-10-29",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "id": 2
     }
   ]
 }

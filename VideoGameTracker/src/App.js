@@ -48,7 +48,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/explore">
-          <ExplorePage games={games} setGames={setGames} gameList={gameList} onChangeGameList={onChangeGameList}/>
+          <ExplorePage games={games} setGames={setGames} onChangeGameList={onChangeGameList}/>
         </Route>
         <Route exact path="/myLists">
           <MyLists gameList={gameList} />
