@@ -132,7 +132,6 @@ header {
   text-align: center;
 }
 
-
 #loadGamesButton {
   padding: 10px 20px;
   margin: 10px;
@@ -206,6 +205,7 @@ header {
   padding: 10px;
   text-align: center;
   background-color: rgba(125, 251, 0, 0.561);
+  overflow-x: auto;
 }
 
 i {
@@ -217,3 +217,42 @@ hr {
   border: 1px dashed;
 }
 
+.cardDetails {
+  /* background-color: blue; */
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.cardRelease {
+  margin-bottom: 10px;
+  /* background-color: red; */
+  padding: 0;
+}
+
+.selectBox {
+  background-color: rgba(0, 0, 0, 0.829);
+  color : white;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(125, 251, 0, 0.561);
+}
+
+.seeDetails {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  width: 50%;
+  height: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.seeDetails:active {
+  transition: 0s;
+  background-color: black;
+  color: white;
+}
