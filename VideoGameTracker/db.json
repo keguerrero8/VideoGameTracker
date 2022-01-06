@@ -1,9 +1,9 @@
 {
   "games": [
     {
-      "name": "Battlerite",
-      "background_image": "https://media.rawg.io/media/screenshots/54f/54fcf1a626faa92afa3f5d2834dbc5ce.jpg",
-      "released": "2016-09-20",
+      "name": "Orcs Must Die! 2",
+      "background_image": "https://media.rawg.io/media/games/725/725eb4171c8aacee030a2d050ebf9fad.jpg",
+      "released": "2012-07-30",
       "list": "Wishlist",
       "platforms": [
         {
@@ -14,353 +14,145 @@
             "image": null,
             "year_end": null,
             "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+            "games_count": 398536,
+            "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
           },
-          "released_at": "2016-09-20",
+          "released_at": "2012-07-30",
           "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7 or newer<br></li><li><strong>Processor:</strong> Dual core from Intel or AMD at 2.8 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 3000<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 1500 MB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible</li></ul>"
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Windows XP, Windows Vista, Windows 7<br>\t</li><li><strong>Processor:</strong>2GHz Dual Core<br>\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 6800 or ATI Radeon x1950 or better with 256MB VRAM<br>\t</li><li><strong>DirectX®:</strong>9.0c<br>\t</li><li><strong>Hard Drive:</strong>9 GB HD space<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t</li><li><strong>Additional:</strong>Broadband Internet connection recommended for co-op play.</li></ul>"
           },
-          "requirements_ru": null
+          "requirements_ru": {
+            "minimum": "Core 2 Duo/Athlon x2 2 ГГц,2 Гб памяти,GeForce 6800/Radeon x1950,9 Гб на винчестере",
+            "recommended": "Сore i5/Phenom II 3 ГГц,3 Гб памяти,3D-ускоритель с 512 Мб памяти,9 Гб на винчестере"
+          }
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Final Fantasy VII Remake",
+      "background_image": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg",
+      "released": "2020-04-10",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 187,
+            "name": "PlayStation 5",
+            "slug": "playstation5"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
         }
       ],
       "id": 2
     },
     {
-      "name": "Deathmatch Classic",
-      "background_image": "https://media.rawg.io/media/screenshots/b04/b042f8a7d3d9f8fe61d5af5d47ab6088.jpg",
-      "released": "2001-06-01",
-      "list": "Completed",
-      "platforms": [
-        {
-          "platform": {
-            "id": 5,
-            "name": "macOS",
-            "slug": "macos",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 84628,
-            "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
-          },
-          "released_at": "2001-06-01",
-          "requirements_en": {
-            "minimum": "Minimum: OS X  Snow Leopard 10.6.3, 1GB RAM, 4GB Hard Drive Space,NVIDIA GeForce 8 or higher, ATI X1600 or higher, or Intel HD 3000 or higher Mouse, Keyboard, Internet Connection"
-          },
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 6,
-            "name": "Linux",
-            "slug": "linux",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 60599,
-            "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
-          },
-          "released_at": "2001-06-01",
-          "requirements_en": {
-            "minimum": "Minimum: Linux Ubuntu 12.04, Dual-core from Intel or AMD at 2.8 GHz, 1GB Memory, nVidia GeForce 8600/9600GT, ATI/AMD Radeaon HD2600/3600 (Graphic Drivers: nVidia 310, AMD 12.11), OpenGL 2.1, 4GB Hard Drive Space, OpenAL Compatible Sound Card"
-          },
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2001-06-01",
-          "requirements_en": {
-            "minimum": "\r\n\t\t\t<p><strong>Minimum:</strong> 500 mhz processor, 96mb ram, 16mb video card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\r\n\t\t\t<p><strong>Recommended:</strong> 800 mhz processor, 128mb ram, 32mb+ video card, Windows XP, Mouse, Keyboard, Internet Connection<br /></p>\r\n\t\t\t"
-          },
-          "requirements_ru": null
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Bully: Scholarship Edition",
-      "background_image": "https://media.rawg.io/media/games/37a/37adf971ee0732869c431e4936bb2080.jpg",
-      "released": "2008-03-04",
+      "name": "Assassin's Creed Origins",
+      "background_image": "https://media.rawg.io/media/games/336/336c6bd63d83cf8e59937ab8895d1240.jpg",
+      "released": "2017-10-27",
       "list": "Playing",
       "platforms": [
         {
           "platform": {
-            "id": 14,
-            "name": "Xbox 360",
-            "slug": "xbox360",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 2745,
-            "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
-          },
-          "released_at": "2008-03-04",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 21,
-            "name": "Android",
-            "slug": "android",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 43583,
-            "image_background": "https://media.rawg.io/media/games/fee/fee0100afd87b52bfbd33e26689fa26c.jpg"
-          },
-          "released_at": "2008-03-04",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 3,
-            "name": "iOS",
-            "slug": "ios",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 73134,
-            "image_background": "https://media.rawg.io/media/games/d4b/d4bcd78873edd9992d93aff9cc8db0c8.jpg"
-          },
-          "released_at": "2008-03-04",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
             "id": 4,
             "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2008-03-04",
-          "requirements_en": {
-            "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP / Windows Vista                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+                    <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM                    <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9.0c Shader 3.0 supported, Nvidia 6800 or 7300 or better, ATI Radeon X1300 or better                    <br>\t\t\t\t\t</li><li><strong>DirectX Version:</strong> DirectX 9.0c                    <br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 4.7 GB free space                    <br>\t\t\t\t\t</li><li><strong>Sound Card:</strong> DX9-compatible                    <br>\t\t\t\t\t</li><li><strong>Input:</strong> Keyboard, Mouse, Xbox 360 Controller supported                    </li></ul>"
-          },
-          "requirements_ru": {
-            "minimum": "Pentium 4/Athlon XP 3 ГГц,1 Гб памяти,GeForce 6800/Radeon X1300,5 Гб на винчестере",
-            "recommended": "Core 2 Duo/Athlon X2 64 2 ГГц,2 Гб памяти,GeForce 7800/Radeon X1800,5 Гб на винчестере"
+            "slug": "pc"
           }
         },
         {
           "platform": {
-            "id": 11,
-            "name": "Wii",
-            "slug": "wii",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 2362,
-            "image_background": "https://media.rawg.io/media/screenshots/df1/df1a27300bf1e4696734b437d81b0fcf.jpg"
-          },
-          "released_at": "2008-03-04",
-          "requirements_en": null,
-          "requirements_ru": null
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
         }
       ],
       "id": 4
     },
     {
-      "name": "Surgeon Simulator",
-      "background_image": "https://media.rawg.io/media/screenshots/ca8/ca840f2a8ebfc74aac1688367dc1f903.jpg",
-      "released": "2013-04-18",
-      "list": "Completed",
+      "name": "Assassin's Creed Valhalla",
+      "background_image": "https://media.rawg.io/media/games/934/9346092ae11bf7582c883869468171cc.jpg",
+      "released": "2020-11-10",
+      "list": "Wishlist",
       "platforms": [
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 6203,
-            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 3,
-            "name": "iOS",
-            "slug": "ios",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 73134,
-            "image_background": "https://media.rawg.io/media/games/d4b/d4bcd78873edd9992d93aff9cc8db0c8.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": {
-            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
-          },
-          "requirements_ru": null
-        },
         {
           "platform": {
             "id": 4,
             "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": {
-            "minimum": "Windows 7 / 8 / 10<br />Processor: 2.0 GHz<br />Memory: 2 GB RAM<br />Graphics: Nvidia Geforce 7800 GT or better<br />DirectX®: 9.0<br />Hard Drive:500 MB HD space<br />Sound: DirectX9.0 compatible sound card<br />Additional: Requires keyboard. Touchpad supported, but mouse strongly recommended for best play experience."
-          },
-          "requirements_ru": null
+            "slug": "pc"
+          }
         },
         {
           "platform": {
-            "id": 5,
-            "name": "macOS",
-            "slug": "macos",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 84628,
-            "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": {
-            "minimum": "OS X 10.9 or later<br />Processor: Intel Core Duo 1.7 GHz+<br />Memory: 2 GB of RAM, Hard drive space: 750 MB<br />Graphics: 1024x768 or greater desktop screen resolution (Intel HD 3000 or comparable). Recommended two-button mouse, or Apple mouse with Secondary Button / Secondary Click enabled."
-          },
-          "requirements_ru": null
+            "id": 187,
+            "name": "PlayStation 5",
+            "slug": "playstation5"
+          }
         },
         {
           "platform": {
-            "id": 6,
-            "name": "Linux",
-            "slug": "linux",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 60599,
-            "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": {
-            "minimum": "Ubuntu 14.04 or newer<br />Processor: 2.0 GHz or better<br />Memory: 2 GB RAM<br />Graphics: Radeon x850 or comparable."
-          },
-          "requirements_ru": null
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
         },
         {
           "platform": {
-            "id": 7,
-            "name": "Nintendo Switch",
-            "slug": "nintendo-switch",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 4639,
-            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": null,
-          "requirements_ru": null
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
         },
         {
           "platform": {
-            "id": 21,
-            "name": "Android",
-            "slug": "android",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 43583,
-            "image_background": "https://media.rawg.io/media/games/fee/fee0100afd87b52bfbd33e26689fa26c.jpg"
-          },
-          "released_at": "2013-04-18",
-          "requirements_en": {
-            "minimum": "4.0 and up"
-          },
-          "requirements_ru": null
+            "id": 186,
+            "name": "Xbox Series S/X",
+            "slug": "xbox-series-x"
+          }
         }
       ],
       "id": 5
     },
     {
-      "name": "Enclave",
-      "background_image": "https://media.rawg.io/media/screenshots/5b4/5b4344caf224ac6e6a5bf9eb2c7cbc4b.jpg",
-      "released": "2002-07-18",
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "background_image": "https://media.rawg.io/media/games/cc1/cc196a5ad763955d6532cdba236f730c.jpg",
+      "released": "2017-03-03",
       "list": "Completed",
       "platforms": [
         {
           "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2013-10-04",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP / Vista / 7 / 8 / 10<br></li><li><strong>Processor:</strong> Intel or AMD Single Core CPU<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> with TnL support and 128 MB RAM<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> required<br></li><li><strong>Additional Notes:</strong> Keyboard, Mouse</li></ul>",
-            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP / Vista / 7 / 8 / 10<br></li><li><strong>Processor:</strong> Intel or AMD Multi-Core CPU with 2.0 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 2.0 support and 256 MB RAM<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> required<br></li><li><strong>Additional Notes:</strong> Keyboard, Mouse</li></ul>"
-          },
-          "requirements_ru": {
-            "minimum": "Pentium III 600 МГц, 192 Mб памяти, 3D-ускоритель",
-            "recommended": "Pentium 4/Athlon XP 1.5 ГГц, 256 Мб памяти, GeForce 3 или выше"
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
           }
         },
         {
           "platform": {
-            "id": 6,
-            "name": "Linux",
-            "slug": "linux",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 60599,
-            "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
-          },
-          "released_at": "2013-10-04",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 16.04 LTS or SteamOS<br></li><li><strong>Processor:</strong> Intel or AMD Single Core CPU<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Graphics:</strong> 128 MB RAM<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> required<br></li><li><strong>Additional Notes:</strong> Keyboard, Mouse</li></ul>",
-            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 16.04 LTS or SteamOS<br></li><li><strong>Processor:</strong> Intel or AMD Multi-Core CPU with 2.0 GHz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 2.0 support and 256 MB RAM<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> required<br></li><li><strong>Additional Notes:</strong> Keyboard, Mouse</li></ul>"
-          },
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 5,
-            "name": "macOS",
-            "slug": "macos",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 84628,
-            "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
-          },
-          "released_at": "2013-10-04",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Snow Leopard<br></li><li><strong>Processor:</strong> Intel Mac 2.GHz<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Graphics:</strong> Per Pixel Shader 2.0<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Soundcard with 5.1 Support<br></li><li><strong>Additional Notes:</strong> Keyboard and mouse</li></ul>",
-            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Snow Leopard<br></li><li><strong>Processor:</strong> Multicore CPU<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> ATI/AMD Radeon X<br></li><li><strong>Storage:</strong> 3 GB available space<br></li><li><strong>Sound Card:</strong> Soundcard with 5.1 Support<br></li><li><strong>Additional Notes:</strong> Keyboard and mouse</li></ul>"
-          },
-          "requirements_ru": null
+            "id": 10,
+            "name": "Wii U",
+            "slug": "wii-u"
+          }
         }
       ],
       "id": 6

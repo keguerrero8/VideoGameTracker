@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import SwitchButton from "./SwitchButton";
 
 
 function GameListCard({ game, onDelete, onChange, setOnChange}) {
+    const [ seeDetails, setSeeDetails ] = useState(false)
 
     function handleClick() {
         fetch(`http://localhost:3000/games/${game.id}`, {
@@ -10,19 +11,43 @@ function GameListCard({ game, onDelete, onChange, setOnChange}) {
         onDelete(game.id)
     }
 
-    return (
-        <article className="card">
-            <h3>{game.name}</h3>
-            <button className="deleteButton" onClick={handleClick}>x</button> 
-            <img src={game.background_image} />
-            <p>Release Date: {game.released}</p>
-            <h4 style={{textDecoration: "underline"}}>Consoles:</h4>
-            {game.platforms.map((platform) => {
-                return <p className="consoles" key={platform.platform.name}>{platform.platform.name}</p>
-            })}
-            <SwitchButton game={game} onChange={onChange} setOnChange={setOnChange}/>
-        </article>  
-    )
+    function handleSeeDetails () {
+        setSeeDetails(!seeDetails)
+    }
+
+    if (seeDetails === true) {
+        return (
+            <article className="card">
+                <h3>{game.name}</h3>
+                <button className="deleteButton" onClick={handleClick}>x</button> 
+                <img src={game.background_image} />
+                <button className="seeDetails" onClick={handleSeeDetails}> Hide Details</button>
+                <div className="cardDetails">
+                    <p className="cardRelease">Release Date: {game.released}</p>
+                    <p>Metacritic review: {game.metacritic}</p>
+                    <span style={{textDecoration: "underline"}}>Consoles:</span>
+                    {game.platforms.map((platform, i, platforms) => {
+                        if (i !== platforms.length-1) {
+                            return <em className="consoles" key={platform.platform.id}>{platform.platform.name}, </em>
+                        }
+                        return <em className="consoles" key={platform.platform.id}>{platform.platform.name} </em>
+                    } )}
+                </div>
+                <SwitchButton game={game} onChange={onChange} setOnChange={setOnChange}/>
+            </article>  
+        )
+    }
+    else {
+        return (
+            <article className="card">
+                <h3>{game.name}</h3>
+                <button className="deleteButton" onClick={handleClick}>x</button> 
+                <img src={game.background_image} />
+                <button className="seeDetails" onClick={handleSeeDetails}> See Details</button>
+                <SwitchButton game={game} onChange={onChange} setOnChange={setOnChange}/>
+            </article>
+        )
+    }
 }
 
 
