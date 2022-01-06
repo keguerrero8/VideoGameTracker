@@ -32,7 +32,7 @@ header {
 
 .gameList {
   column-count: 1;
-  break-after: column;
+  break-after:column;
 }
 
 .gameListHeader {
@@ -50,6 +50,7 @@ header {
   text-align: center;
   padding: 10px 20px;
   margin: 10px;
+  width: 200px;
   border-style: solid;
   border-radius: 5px;
   color: white;
@@ -58,17 +59,29 @@ header {
   cursor: pointer;
 }
 
+.switchComplete {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(125, 251, 0, 0.561);
+}
+
 .switchButton:active {
   transition: 0s;
   background-color: black;
 }
 
 .deleteButton {
-  position: absolute;
+  position: relative;
   float: right;
   text-align: center;
   height: 20px; 
-  width: 20px; 
+  width: auto; 
   padding: 1px 1px;
   border-style: solid;
   border-radius: 5px;
@@ -100,6 +113,27 @@ header {
   border-color: rgba(125, 251, 0, 0.561);
   color:white;
   background-color: rgba(49, 92, 6, 0.561);
+}
+
+.gameListCard {
+  text-align: center;
+  margin-bottom: 20px;
+  grid-template-rows: max-content 200px 1fr;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(125, 251, 0, 0.561);
+  color:white;
+  background-color: rgba(125, 251, 0, 0.561);
+}
+
+.gameListCardTitle {
+  position:relative;
+  left: 10%
+}
+
+.gameListCardImage {
+  max-width: 400px;
+  height: 300px;
 }
 
 .card img {
@@ -216,8 +250,6 @@ i {
 hr {
   border: 1px dashed;
 }
-<<<<<<< HEAD
-=======
 
 .cardDetails {
   /* background-color: blue; */
@@ -258,4 +290,36 @@ hr {
   background-color: black;
   color: white;
 }
->>>>>>> refs/remotes/origin/main
+
+.gameListSeeDetails {
+  position: relative;
+  right: 12.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  width: 50%;
+  height: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.gameListSeeDetails:active {
+  transition: 0s;
+  background-color: black;
+  color: white;
+}
+
+#gameListSelect {
+  position: relative;
+  text-align: center;
+  left: 12%;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+#gameListCard {
+  margin-inline-end: 219123123px;
+}

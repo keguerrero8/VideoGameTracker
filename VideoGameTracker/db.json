@@ -1,11 +1,26 @@
 {
   "games": [
     {
-      "name": "Far Cry New Dawn",
-      "background_image": "https://media.rawg.io/media/games/c9b/c9b64ff3987a27a5e66fb62328154e60.jpg",
-      "released": "2019-02-15",
+      "name": "Ori and the Blind Forest",
+      "background_image": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg",
+      "released": "2015-03-10",
       "list": "Wishlist",
       "platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2745,
+            "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+          },
+          "released_at": "2015-03-10",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
         {
           "platform": {
             "id": 1,
@@ -17,7 +32,7 @@
             "games_count": 5146,
             "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
           },
-          "released_at": "2019-02-15",
+          "released_at": "2015-03-10",
           "requirements_en": null,
           "requirements_ru": null
         },
@@ -29,269 +44,19 @@
             "image": null,
             "year_end": null,
             "year_start": null,
-            "games_count": 398537,
-            "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+            "games_count": 398538,
+            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
           },
-          "released_at": "2019-02-15",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 6203,
-            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+          "released_at": "2015-03-10",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Core 2 Duo E4500 @ 2.2GHz or AMD Athlon 64 X2 5600+ @ 2.8 GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce 240 GT or Radeon HD 6570 – 1024 MB (1 gig)<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 8 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7<br></li><li><strong>Processor:</strong> Intel Core i5 2300 or AMD FX6120<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 550 Ti or Radeon HD 6770<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 8 GB available space</li></ul>"
           },
-          "released_at": "2019-02-15",
-          "requirements_en": null,
           "requirements_ru": null
         }
       ],
+      "metacritic": 88,
       "id": 1
-    },
-    {
-      "name": "Void Bastards",
-      "background_image": "https://media.rawg.io/media/games/943/9436adc4b833d1026c3805fc4ce602b8.jpg",
-      "released": "2019-05-28",
-      "list": "Playing",
-      "platforms": [
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 6203,
-            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
-          },
-          "released_at": "2019-05-28",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 7,
-            "name": "Nintendo Switch",
-            "slug": "nintendo-switch",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 4639,
-            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
-          },
-          "released_at": "2020-05-07",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 1,
-            "name": "Xbox One",
-            "slug": "xbox-one",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 5146,
-            "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
-          },
-          "released_at": "2019-05-28",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 5,
-            "name": "macOS",
-            "slug": "macos",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 84628,
-            "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
-          },
-          "released_at": "2019-05-28",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398537,
-            "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
-          },
-          "released_at": "2019-05-28",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7/8/10 (64-bit versions)<br></li><li><strong>Processor:</strong> Intel i5-2400, AMD FX-8320<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 660 2GB, AMD Radeon 7850 2GB<br></li><li><strong>Storage:</strong> 20 GB available space</li></ul>",
-            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7/8/10 (64-bit versions)<br></li><li><strong>Processor:</strong> Intel i7-2600K, AMD FX-8350<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> GTX 970 4GB, AMD R9 290 4GB<br></li><li><strong>Storage:</strong> 20 GB available space</li></ul>"
-          },
-          "requirements_ru": null
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Shadowgrounds",
-      "background_image": "https://media.rawg.io/media/screenshots/550/550a1374bf25a545fb5ef67c08a64ad7.jpg",
-      "released": "2005-11-16",
-      "list": "Wishlist",
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2006-03-28",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong> 1.3 GHZ or Equivalent, 384 MB RAM, GeForce 4 Ti 4200* or ATi Radeon 9000 or better, 1 GB free hard drive space, Windows 2000/XP<br>\t\t\t\t\t<strong>Recommended:</strong> 2.0 GHz, 512 MB RAM, GeForce FX 5900 Ultra or ATi Radeon 9500 Pro or better<br>\t\t\t\t\t* Please note that Shadowgrounds does not run on GeForce 4 MX cards."
-          },
-          "requirements_ru": {
-            "minimum": "Pentium III/Athlon 1.2 ГГц,128 Мб памяти,3D-ускоритель с 64 Мб памяти,2 Гб на винчестере",
-            "recommended": "Pentium 4/Athlon XP 2 ГГц,128 Мб памяти,3D-ускоритель с 64 Мб памяти,2 Гб на винчестере"
-          }
-        },
-        {
-          "platform": {
-            "id": 5,
-            "name": "macOS",
-            "slug": "macos",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 84628,
-            "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
-          },
-          "released_at": "2006-05-08",
-          "requirements_en": {
-            "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X 10.6.5 or newer - Unfortunately OS X 10.9 or newer NOT supported<br>\t</li><li><strong>Processor:</strong> Intel Mac<br>\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 1GB<br>\t</li><li><strong>Video Card:</strong> : OpenGL 2.0 compatible video card with 256 MB shared or dedicated RAM (ATI or NVIDIA)<strong>*</strong><br>\t</li><li><strong>DirectX®:</strong> 9.0<br>\t</li><li><strong>Additional:</strong> Keyboard+mouse or Keyboard+trackpad<br>\t</li><li><strong>*</strong>Please be advised that the game does not run on Intel graphics solutions (such as Macbooks from 2006-2008 and the new MacBook Pro 13&quot; models from 2011). The game does run on most Macs from 2009 onwards that have a distinct graphics chip (such as those with NVIDIA GeForce 9400M but graphics details need to be turned down for smooth gameplay).</li></ul>"
-          },
-          "requirements_ru": null
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Knack",
-      "background_image": "https://media.rawg.io/media/games/99d/99dddca3736b9fbcfa7630054de24a5f.jpg",
-      "released": "2013-11-15",
-      "list": "Completed",
-      "platforms": [
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 6203,
-            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
-          },
-          "released_at": "2013-11-15",
-          "requirements_en": null,
-          "requirements_ru": null
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Age of Empires III: Complete Collection",
-      "background_image": "https://media.rawg.io/media/screenshots/baf/baf902c3d2e800a57c087763d56fc914.jpg",
-      "released": "2012-01-05",
-      "list": "Completed",
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398538,
-            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
-          },
-          "released_at": "2012-01-05",
-          "requirements_en": {
-            "minimum": "<ul class=\"bb_ul\"><li><strong>OS:</strong>Windows XP<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Core 2 Duo 2.2 GHz or AMD Athlon 64 X2 2.0 GHz<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>64 MB NVIDIA GeForce 6800 or ATI Radeon X1300<br>\t\t\t\t\t\t\t</li><li><strong>DirectX®:</strong>dx90c<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>12 GB HD space<br>\t\t\t\t\t\t</li></ul>"
-          },
-          "requirements_ru": null
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "Greedfall",
-      "background_image": "https://media.rawg.io/media/games/c68/c6842e7b1e4a8c5fdff79504b7284e49.jpg",
-      "released": "2019-09-10",
-      "list": "Playing",
-      "platforms": [
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 6203,
-            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
-          },
-          "released_at": "2019-09-10",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 1,
-            "name": "Xbox One",
-            "slug": "xbox-one",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 5146,
-            "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
-          },
-          "released_at": "2019-09-10",
-          "requirements_en": null,
-          "requirements_ru": null
-        },
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc",
-            "image": null,
-            "year_end": null,
-            "year_start": null,
-            "games_count": 398537,
-            "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
-          },
-          "released_at": "2019-09-10",
-          "requirements_en": {
-            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>Additional Notes:</strong> To be announced soon.</li></ul>"
-          },
-          "requirements_ru": null
-        }
-      ],
-      "id": 6
     }
   ]
 }

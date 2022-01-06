@@ -41,13 +41,11 @@ function RenderGameListCard({ location, gameList, onDelete, onChange, setOnChang
 
     return (
         <>
-            <div onChange={handleSelect} className="select" style={{width: "200px"}}>
-                <select>
-                    <option value="">--Sort Games--</option>
-                    <option value="byTitle">By Title</option>
-                    <option value="byDate">By Date</option> 
-                </select>
-            </div>
+            <select onChange={handleSelect} className="selectBox" id="gameListSelect">
+                <option value="">--Sort Games--</option>
+                <option value="byTitle">By Title</option>
+                <option value="byDate">By Date</option> 
+            </select>
             {gamesToDisplay.map((game)=> {
                 if (game.platforms === null) {
                     return null
