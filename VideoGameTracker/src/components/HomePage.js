@@ -31,8 +31,8 @@ function HomePage() {
                             <hr />
                             <p style={{lineHeight:"1.5"}} > Create your own personal backlog of your favorite video games.  Each video game is rendered
                             as a video game card with the option to add the game to three different categories.  Already beat the game? Add it to your
-                            "completed" list.  Currently playing the game? Add it to your "currently playing" list. Got a game you want to play but don't
-                            have the time right now? Add it to your "wishlist."
+                            "Completed" list.  Currently playing the game? Add it to your "Playing" list. Got a game you want to play but don't
+                            have the time right now? Add it to your "Wishlist."
                             </p>
                         </div>
                     </div>
