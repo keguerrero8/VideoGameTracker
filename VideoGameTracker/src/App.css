@@ -26,6 +26,63 @@ header {
   color: black;
 }
 
+.gameListContainer {
+  column-count: 3;
+}
+
+.gameList {
+  column-count: 1;
+  break-after: column;
+}
+
+.gameListHeader {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(125, 251, 0, 0.561);
+  border-color: black;
+}
+
+.switchButton {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(125, 251, 0, 0.561);
+  cursor: pointer;
+}
+
+.switchButton:active {
+  transition: 0s;
+  background-color: black;
+}
+
+.deleteButton {
+  position: absolute;
+  float: right;
+  text-align: center;
+  height: 20px; 
+  width: 20px; 
+  padding: 1px 1px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(125, 251, 0, 0.561);
+  cursor: pointer;
+}
+
+.deleteButton:active {
+  transition: 0s;
+  background-color: black;
+}
+
 .cards {
   width: 90%;
   margin-left: 5%;
@@ -74,6 +131,7 @@ header {
   padding: 10px;
   text-align: center;
 }
+
 
 #loadGamesButton {
   padding: 10px 20px;
@@ -158,3 +216,4 @@ i {
 hr {
   border: 1px dashed;
 }
+

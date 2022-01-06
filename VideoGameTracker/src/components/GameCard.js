@@ -3,7 +3,7 @@ import GameListCard from "./GameListCard";
 
 // render games to card
 
-function GameCard({ game, gameList, onChangeGameList }) {
+function GameCard({ game, onChangeGameList }) {
     function handleChange(event) { 
         const newGame = {
             name: game.name,
@@ -29,15 +29,18 @@ function GameCard({ game, gameList, onChangeGameList }) {
         <article className="card">
             <h3>{game.name}</h3>
             <img src={game.background_image} />
-            <p>Release Date: {game.released}</p>
-            <h4 style={{textDecoration: "underline"}}>Consoles:</h4>
-            {game.platforms === null ? "None" : game.platforms.map((platform) => <p className="consoles" key={platform.platform.id}>{platform.platform.name}</p> )}
-            <select onChange={handleChange} name="lists" id="list-select">
-                <option value="">--Add to list--</option>
-                <option value="Completed">Completed</option>
-                <option value="Playing">Playing</option>
-                <option value="Wishlist">Wishlist</option>
-            </select>
+                <p>Release Date: {game.released}</p>
+            {game.platforms.map((platform) => {
+                return <p className="consoles" key={platform.platform.name}>{platform.platform.name}</p>
+            })}
+            <div className="gameListSelect">
+                <select onChange={handleChange} name="lists" id="list-select">
+                    <option value="">--Add to list--</option>
+                    <option value="Wishlist">Wishlist</option>
+                    <option value="Playing">Playing</option>
+                    <option value="Completed">Completed</option>   
+                </select>
+            </div>
         </article>  
     )
 }

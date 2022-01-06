@@ -25,7 +25,13 @@ function GameContainer({ games, gameList, onChangeGameList}) {
                 <button id="loadGamesButton" onClick={handleClick} >Load More Games</button>
             </div>
             <div className="cards">
-                {gamesToDisplay.map((game)=> <GameCard key={game.name} game={game} gameList={gameList} onChangeGameList={onChangeGameList}/> )}
+                {gamesToDisplay.map((game)=>{
+                    if (game.platforms === null) {
+                        return null
+                    } else {
+                        return (<GameCard key={game.name} game={game} onChangeGameList={onChangeGameList}/>)
+                    }
+                })}
             </div>
         </div>
 )};
