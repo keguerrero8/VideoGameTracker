@@ -2,15 +2,7 @@ import { React, useState } from "react";
 import GameCard from "./GameCard";
 import SearchBar from "./SearchBar"
 
-<<<<<<< HEAD
-
-// GameCard
-
-function GameContainer({ games, setGames, onChangeGameList}) {
-    const [search, setSearch] = useState("")
-=======
 function GameContainer({ games, gameList, onChangeGameList}) {
->>>>>>> refs/remotes/origin/main
     const [searchGames, setSearchGames] = useState([])
     
     const gamesToDisplay = searchGames.length === 0 ||  searchGames[0].slug.startsWith("grand") ? games : searchGames
@@ -34,8 +26,12 @@ function GameContainer({ games, gameList, onChangeGameList}) {
             </div>
             <div className="cards">
                 {gamesToDisplay.map((game)=>{
-                    return (<GameCard key={game.name} game={game} onChangeGameList={onChangeGameList}/>
-                )})}
+                    if (game.platforms === null) {
+                        return null
+                    } else {
+                        return (<GameCard key={game.name} game={game} onChangeGameList={onChangeGameList}/>)
+                    }
+                })}
             </div>
         </div>
 )};

@@ -24,20 +24,23 @@ function GameCard({ game, onChangeGameList }) {
         .then((data) => onChangeGameList(data))
     }
 
-
     return (
         <article className="card">
             <h3>{game.name}</h3>
             <img src={game.background_image} />
-            <p>Release Date: {game.released}</p>
+                <p>Release Date: {game.released}</p>
             <h4 style={{textDecoration: "underline"}}>Consoles:</h4>
-            {game.platforms === null ? "None" : game.platforms.map((platform) => <p className="consoles" key={platform.platform.id}>{platform.platform.name}</p> )}
-            <select onChange={handleChange} name="lists" id="list-select">
-                <option value="">--Add to list--</option>
-                <option value="Completed">Completed</option>
-                <option value="Playing">Playing</option>
-                <option value="Wishlist">Wishlist</option>
-            </select>
+            {game.platforms.map((platform) => {
+                return <p className="consoles" key={platform.platform.name}>{platform.platform.name}</p>
+            })}
+            <div className="gameListSelect">
+                <select onChange={handleChange} name="lists" id="list-select">
+                    <option value="">--Add to list--</option>
+                    <option value="Wishlist">Wishlist</option>
+                    <option value="Playing">Playing</option>
+                    <option value="Completed">Completed</option>   
+                </select>
+            </div>
         </article>  
     )
 }

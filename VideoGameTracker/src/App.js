@@ -10,6 +10,7 @@ import MyLists from "./components/MyLists";
 function App() {
   const [games, setGames] = useState([])
   const [gameList, setGameList] = useState([])
+  const [onChange, setOnChange] = useState(false)
 
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
@@ -17,6 +18,10 @@ function App() {
 
   function onChangeGameList(newGame) {
     setGameList([...gameList, newGame])
+  }
+
+  function onDelete(id) {
+    setGameList(gameList.filter((game)=> game.id !== id)) 
   }
 
   useEffect(()=> {
@@ -31,17 +36,17 @@ function App() {
     fetch(`http://localhost:3000/games`)
     .then((response)=> response.json())
     .then((data)=> setGameList(data))
-  }, []);
+  }, [onChange]);
 
   return (
     <>
       <NavBar />
       <Switch>
         <Route exact path="/explore">
-          <ExplorePage games={games} setGames={setGames} onChangeGameList={onChangeGameList}/>
+          <ExplorePage games={games} setGames={setGames} onChange={onChange} onChangeGameList={onChangeGameList}/>
         </Route>
         <Route exact path="/myLists">
-          <MyLists gameList={gameList} />
+          <MyLists gameList={gameList} onDelete={onDelete} onChange={onChange} setOnChange={setOnChange}/>
         </Route>
         <Route exact path="/">
           <HomePage />
