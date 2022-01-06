@@ -17,11 +17,11 @@ function GameListCard({ game, onDelete, onChange, setOnChange}) {
 
     if (seeDetails === true) {
         return (
-            <article className="card">
-                <h3>{game.name}</h3>
-                <button className="deleteButton" onClick={handleClick}>x</button> 
-                <img src={game.background_image} />
-                <button className="seeDetails" onClick={handleSeeDetails}> Hide Details</button>
+            <article className="gameListCard">
+                <button className="deleteButton" onClick={handleClick}>Remove From List</button> 
+                <h3 className="gameListCardTitle" >{game.name}</h3>
+                <img className="gameListCardImage" src={game.background_image} />
+                <button className="gameListSeeDetails" onClick={handleSeeDetails}> Hide Details</button>
                 <div className="cardDetails">
                     <p className="cardRelease">Release Date: {game.released}</p>
                     <p>Metacritic review: {game.metacritic}</p>
@@ -39,16 +39,15 @@ function GameListCard({ game, onDelete, onChange, setOnChange}) {
     }
     else {
         return (
-            <article className="card">
-                <h3>{game.name}</h3>
-                <button className="deleteButton" onClick={handleClick}>x</button> 
-                <img src={game.background_image} />
-                <button className="seeDetails" onClick={handleSeeDetails}> See Details</button>
+            <article className="gameListCard">
+                <button className="deleteButton" onClick={handleClick}>Remove From List</button>
+                <h3 className="gameListCardTitle">{game.name}</h3>
+                <img className="gameListCardImage" src={game.background_image} />
+                <button className="gameListSeeDetails" onClick={handleSeeDetails}> See Details</button>
                 <SwitchButton game={game} onChange={onChange} setOnChange={setOnChange}/>
             </article>
         )
     }
 }
-
 
 export default GameListCard;

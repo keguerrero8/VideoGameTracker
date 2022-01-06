@@ -8,18 +8,11 @@ function GameCard({ game, onChangeGameList }) {
             background_image: game.background_image,
             released: game.released,
             list: event.target.value,
-            platforms: game.platforms
+            platforms: game.platforms,
+            metacritic: game.metacritic
         }
 
-        fetch("http://localhost:3000/games", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(newGame)
-        })
-        .then((response)=> response.json())
-        .then((data) => onChangeGameList(data))
+    onChangeGameList(newGame)
     }
 
     function handleSeeDetails () {
@@ -45,9 +38,9 @@ function GameCard({ game, onChangeGameList }) {
                 </div>
                 <select className="selectBox" onChange={handleChange} name="lists" id="list-select">
                     <option value="">--Add to list--</option>
-                    <option value="Completed">Completed</option>
-                    <option value="Playing">Playing</option>
                     <option value="Wishlist">Wishlist</option>
+                    <option value="Playing">Playing</option>
+                    <option value="Completed">Completed</option>  
                 </select>
             </article>  
         )
@@ -60,9 +53,9 @@ function GameCard({ game, onChangeGameList }) {
                 <button className="seeDetails" onClick={handleSeeDetails}> See Details</button>
                 <select className="selectBox" onChange={handleChange} name="lists" id="list-select">
                     <option value="">--Add to list--</option>
-                    <option value="Completed">Completed</option>
-                    <option value="Playing">Playing</option>
                     <option value="Wishlist">Wishlist</option>
+                    <option value="Playing">Playing</option>
+                    <option value="Completed">Completed</option>
                 </select>
             </article>
         )

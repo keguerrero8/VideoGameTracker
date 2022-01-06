@@ -9,7 +9,12 @@ import MyLists from "./components/MyLists";
 
 function App() {
   const [games, setGames] = useState([])
-  const [gameList, setGameList] = useState([])
+  const [gameList, setGameList] = useState([
+  {
+    id: 1,
+    name: "filler"
+  }
+  ])
   const [onChange, setOnChange] = useState(false)
 
   function getRandomInt(max) {
@@ -17,7 +22,25 @@ function App() {
   }
 
   function onChangeGameList(newGame) {
-    setGameList([...gameList, newGame])
+    console.log(gameList)
+    if (gameList.some((game)=> game.name === newGame.name)) {
+      return null
+    } else {
+      return (
+        fetch("http://localhost:3000/games", {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(newGame)
+          })
+        .then((response)=> response.json())
+        .then((data) => setGameList([...gameList, data]))
+      )
+    }
+    
+    
+    
   }
 
   function onDelete(id) {
