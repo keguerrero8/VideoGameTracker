@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
 
 function GameCard({ game, onChangeGameList }) {
     const [ seeDetails, setSeeDetails ] = useState(false)
@@ -21,10 +23,11 @@ function GameCard({ game, onChangeGameList }) {
 
     if (seeDetails === true) {
         return (
-            <article className="card">
+            <article className="gameListCard">
                 <h3>{game.name}</h3>
-                <img src={game.background_image} />
-                <button className="seeDetails" onClick={handleSeeDetails}> Hide Details</button>
+                <img className="gameListCardImage" src={game.background_image} />
+                {/* <button className="seeDetails" onClick={handleSeeDetails}> Hide Details</button> */}
+                <Button variant="contained" sx={{marginTop : "10px"}} onClick={handleSeeDetails}>Hide Details</Button>
                 <div className="cardDetails">
                     <p className="cardRelease">Release Date: {game.released}</p>
                     <p>Metacritic review: {game.metacritic}</p>
@@ -36,27 +39,32 @@ function GameCard({ game, onChangeGameList }) {
                         return <em className="consoles" key={platform.platform.id}>{platform.platform.name} </em>
                     } )}
                 </div>
-                <select className="selectBox" onChange={handleChange} name="lists">
-                    <option value="">--Add to list--</option>
-                    <option value="Wishlist">Wishlist</option>
-                    <option value="Playing">Playing</option>
-                    <option value="Completed">Completed</option>  
-                </select>
+                <Container sx={{mt: "20px", mb: "10px"}}>
+                    <select className="selectBox" onChange={handleChange} name="lists">
+                        <option value="">--Add to list--</option>
+                        <option value="Wishlist">Wishlist</option>
+                        <option value="Playing">Playing</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </Container>
             </article>  
         )
     }
     else {
         return (
-            <article className="card">
+            <article className="gameListCard">
                 <h3>{game.name}</h3>
-                <img src={game.background_image} />
-                <button className="seeDetails" onClick={handleSeeDetails}> See Details</button>
-                <select className="selectBox" onChange={handleChange} name="lists">
-                    <option value="">--Add to list--</option>
-                    <option value="Wishlist">Wishlist</option>
-                    <option value="Playing">Playing</option>
-                    <option value="Completed">Completed</option>
-                </select>
+                <img className="gameListCardImage" src={game.background_image} />
+                {/* <button className="seeDetails" onClick={handleSeeDetails}> See Details</button> */}
+                <Button variant="contained" sx={{marginTop : "10px"}} onClick={handleSeeDetails}>See Details</Button>
+                <Container sx={{mt: "20px", mb: "10px"}}>
+                    <select className="selectBox" onChange={handleChange} name="lists">
+                        <option value="">--Add to list--</option>
+                        <option value="Wishlist">Wishlist</option>
+                        <option value="Playing">Playing</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </Container>
             </article>
         )
     }

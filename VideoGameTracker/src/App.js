@@ -7,6 +7,7 @@ import ExplorePage from "./components/ExplorePage";
 import MyLists from "./components/MyLists";
 
 
+
 function App() {
   const [games, setGames] = useState([])
   const [gameList, setGameList] = useState([
@@ -22,7 +23,6 @@ function App() {
   }
 
   function onChangeGameList(newGame) {
-    console.log(gameList)
     if (gameList.some((game)=> game.name === newGame.name)) {
       return null
     } else {

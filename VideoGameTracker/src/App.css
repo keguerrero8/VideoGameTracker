@@ -86,13 +86,6 @@ header {
   background-color: black;
 }
 
-.cards {
-  width: 90%;
-  margin-left: 5%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 20px;
-}
 
 .card {
   text-align: center;
@@ -237,10 +230,12 @@ header {
 i {
   font-size: 55px;
   margin-bottom: 5px;
+  color: white
 }
 
 hr {
   border: 1px dashed;
+  color: white
 }
 
 .cardDetails {

@@ -1,37 +1,6 @@
 {
   "games": [
     {
-      "name": "Assassin's Creed Origins",
-      "background_image": "https://media.rawg.io/media/games/336/336c6bd63d83cf8e59937ab8895d1240.jpg",
-      "released": "2017-10-27",
-      "list": "Completed",
-      "platforms": [
-        {
-          "platform": {
-            "id": 4,
-            "name": "PC",
-            "slug": "pc"
-          }
-        },
-        {
-          "platform": {
-            "id": 1,
-            "name": "Xbox One",
-            "slug": "xbox-one"
-          }
-        },
-        {
-          "platform": {
-            "id": 18,
-            "name": "PlayStation 4",
-            "slug": "playstation4"
-          }
-        }
-      ],
-      "metacritic": 81,
-      "id": 1
-    },
-    {
       "name": "Assassin's Creed Valhalla",
       "background_image": "https://media.rawg.io/media/games/934/9346092ae11bf7582c883869468171cc.jpg",
       "released": "2020-11-10",
@@ -77,10 +46,158 @@
       "id": 2
     },
     {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "background_image": "https://media.rawg.io/media/games/cc1/cc196a5ad763955d6532cdba236f730c.jpg",
+      "released": "2017-03-03",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch"
+          }
+        },
+        {
+          "platform": {
+            "id": 10,
+            "name": "Wii U",
+            "slug": "wii-u"
+          }
+        }
+      ],
+      "metacritic": 97,
+      "id": 4
+    },
+    {
+      "name": "It Takes Two",
+      "background_image": "https://media.rawg.io/media/games/d47/d479582ed0a46496ad34f65c7099d7e5.jpg",
+      "released": "2021-03-26",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 187,
+            "name": "PlayStation 5",
+            "slug": "playstation5"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        },
+        {
+          "platform": {
+            "id": 186,
+            "name": "Xbox Series S/X",
+            "slug": "xbox-series-x"
+          }
+        }
+      ],
+      "metacritic": 88,
+      "id": 5
+    },
+    {
+      "name": "RAID: Shadow Legends",
+      "background_image": "https://media.rawg.io/media/games/7bf/7bfd58320fe723d7a7064099515f1131.jpeg",
+      "released": "2019-03-01",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "metacritic": null,
+      "id": 7
+    },
+    {
+      "name": "Shadow of the Colossus  (2018)",
+      "background_image": "https://media.rawg.io/media/games/5c5/5c5089af36b99bf9465357a8556449f9.jpg",
+      "released": "2018-02-06",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        }
+      ],
+      "metacritic": 91,
+      "id": 8
+    },
+    {
+      "name": "Assassin's Creed Origins",
+      "background_image": "https://media.rawg.io/media/games/336/336c6bd63d83cf8e59937ab8895d1240.jpg",
+      "released": "2017-10-27",
+      "list": "Completed",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        }
+      ],
+      "metacritic": 81,
+      "id": 9
+    },
+    {
       "name": "Assassin's Creed Odyssey",
       "background_image": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg",
       "released": "2018-10-05",
-      "list": "Playing",
+      "list": "Wishlist",
       "platforms": [
         {
           "platform": {
@@ -112,31 +229,100 @@
         }
       ],
       "metacritic": 85,
-      "id": 3
+      "id": 10
     },
     {
-      "name": "The Legend of Zelda: Breath of the Wild",
-      "background_image": "https://media.rawg.io/media/games/cc1/cc196a5ad763955d6532cdba236f730c.jpg",
-      "released": "2017-03-03",
-      "list": "Completed",
+      "name": "Monster Hunter: World",
+      "background_image": "https://media.rawg.io/media/games/21c/21cc15d233117c6809ec86870559e105.jpg",
+      "released": "2018-01-26",
+      "list": "Playing",
       "platforms": [
         {
           "platform": {
-            "id": 7,
-            "name": "Nintendo Switch",
-            "slug": "nintendo-switch"
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
           }
         },
         {
           "platform": {
-            "id": 10,
-            "name": "Wii U",
-            "slug": "wii-u"
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
           }
         }
       ],
-      "metacritic": 97,
-      "id": 4
+      "metacritic": 89,
+      "id": 11
+    },
+    {
+      "name": "Monster Hunter World: Iceborne",
+      "background_image": "https://media.rawg.io/media/games/543/543e7e11e48333820aaa3d38f778c434.jpg",
+      "released": "2019-09-06",
+      "list": "Playing",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        }
+      ],
+      "metacritic": 89,
+      "id": 12
+    },
+    {
+      "name": "Kingdom Hearts III",
+      "background_image": "https://media.rawg.io/media/games/968/968e6210715fd61237139e3caa193be0.jpg",
+      "released": "2019-01-29",
+      "list": "Wishlist",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one"
+          }
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4"
+          }
+        }
+      ],
+      "metacritic": 82,
+      "id": 13
     }
   ]
 }

@@ -1,6 +1,9 @@
 import { React, useState } from "react";
 import GameCard from "./GameCard";
 import SearchBar from "./SearchBar"
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
 
 function GameContainer({ games, onChangeGameList}) {
     const [searchGames, setSearchGames] = useState([])
@@ -26,8 +29,7 @@ function GameContainer({ games, onChangeGameList}) {
             [event.target.name === "releaseDate" ? "alphabet" : "releaseDate"] : false
         })
     }
-
-    const gamesToDisplay = searchGames.length === 0 ||  searchGames[0].slug.startsWith("grand") ? games : searchGames
+    const gamesToDisplay = searchGames.length === 0 ||  searchGames[0].slug.startsWith("grand") && searchGames[1].slug.startsWith("the-w") ? games : searchGames
     let sortedList = gamesToDisplay
     if (sort.alphabet === true) {
         sortedList = [...gamesToDisplay].sort((a, b) =>  (a.name > b.name) ? 1 : -1)
@@ -47,9 +49,24 @@ function GameContainer({ games, onChangeGameList}) {
                 <label style={{color: "white"}}>By Title</label>
             </div>
             <div id="loadGames">
-                <button id="loadGamesButton" onClick={handleClick} >Load More Games</button>
+                <Button id="loadGamesButton" color="error" variant="contained" sx={{marginTop : "10px"}} onClick={handleClick}>Load More Games</Button>
             </div>
-            <div className="cards">
+            <Container maxWidth="xl" sx={{mt: "20px"}}>
+                <Grid container spacing={6}>
+                    {sortedList.map((game)=>{
+                        if (game.platforms === null) {
+                            return null
+                        } else {
+                            return (
+                                <Grid item xs={3} key={game.name}>
+                                    <GameCard game={game} onChangeGameList={onChangeGameList}/>
+                                </Grid>                          
+                            )
+                        }
+                    })}
+                </Grid>
+            </Container>
+            {/* <div className="cards">
                 {sortedList.map((game)=>{
                     if (game.platforms === null) {
                         return null
@@ -57,7 +74,7 @@ function GameContainer({ games, onChangeGameList}) {
                         return (<GameCard key={game.name} game={game} onChangeGameList={onChangeGameList}/>)
                     }
                 })}
-            </div>
+            </div> */}
         </div>
 )};
 

@@ -1,14 +1,19 @@
 import React from "react";
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 function HomePage() {
     return (
-        <>
-            <div id="homeContainer" style={{textAlign : "center"}}>
-                <h1 id="homeHead" style={{color : "white"}}>Need a way to organize your gaming experience?</h1>
-                <p id="appDescribe" style={{color : "white"}}>VG Tracker is an easy to use app aimed to consolidate your video game collection.  
-                From all consoles and genres, VG Tracker will help you find information about any games you have in mind and keep a personal record of your collection. </p>
+        <Container maxWidth="xl" sx={{mt: "100px"}}>
+            <Box sx={{mt: "40px"}}>
+                <Typography align="center" color="white" variant="h1" component="h1">Need a way to organize your gaming experience?</Typography>
+            </Box>
+            <Box maxWidth="sm" sx={{margin: "auto", mt: "50px"}}>
+                <Typography align="center" color="white" variant="h5" component="p">VG Tracker is an easy to use app aimed to consolidate your video game collection.  
+                From all consoles and genres, VG Tracker will help you find information about any games you have in mind and keep a personal record of your collection.</Typography>
+            </Box>
 
-            </div>
             <div className="row">
                 <div className="column">
                     <div className="card">
@@ -38,7 +43,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-        </>
+        </Container>
     )
 }
 
